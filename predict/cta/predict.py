@@ -193,25 +193,6 @@ def batch_convert_niigz_jpg(indir, outdir):
 
 
 if __name__ == '__main__':
-    # predict('../../data/gan/hospital_4/experiment_registration2/5 dwi_rigid_align_ncct/114093_first_BS_NCCT.nii.gz', '../../data/gan/hospital_4/experiment_registration2/10.predict')
-    # predict('../../data/gan/hospital_4/experiment_registration2/8.out/NCCT/448646_first_BS_NCCT.nii.gz', '../../data/gan/hospital_4/experiment_registration2/10.predict')
-    # predict('../../data/gan/hospital_4_2/experiment_registration2/8.out/NCCT/402830_first_BS_NCCT.nii.gz', '../../data/gan/hospital_4/experiment_registration2/10.predict')
-    # predict('../../data/gan/hospital_4_2/experiment_registration2/8.out/NCCT/441128_first_BS_NCCT.nii.gz', '../../data/gan/hospital_4/experiment_registration2/10.predict')
-    # predict('../../data/gan/hospital_4/experiment_registration2/8.2.out/NCCT/439856_first_BS_NCCT.nii.gz', '../../data/gan/hospital_4/experiment_registration2/10.predict')
-    # predict('../../data/gan/hospital_6/experiment_registration2/8.2.out/NCCT/4692992_first_BS_NCCT.nii.gz', '../../data/gan/hospital_6/experiment_registration2/10.predict')
-    # batch_predict_cta('../../data/gan/hospital_6/experiment_registration2/8.2.out', '../../data/gan/hospital_6/experiment_registration2/8.2.out/config/anno_mask_ncct_to_dwi_bxxx_test_config_file.txt', '../../data/gan/hospital_6/experiment_registration2/10.xx_predict')
-    # batch_convert_niigz_jpg('../../data/gan/hospital_6/experiment_registration2/10.xx_predict', '../../data/gan/hospital_6/experiment_registration2/10.xx_predict_jpg')
-
-    # batch_predict_cta('../../data/gan/hospital_6/experiment_registration3/8.2.out', '../../data/gan/hospital_6/experiment_registration3/8.2.out/config/mask_ncct_to_dwi_bxxx_train_config_file.txt', '../../data/gan/hospital_6/experiment_registration3/10.predict')
-    # batch_predict_cta('../../data/gan/hospital_6/experiment_registration3/8.2.out', '../../data/gan/hospital_6/experiment_registration3/8.2.out/config/mask_ncct_to_dwi_bxxx_test_config_file.txt', '../../data/gan/hospital_6/experiment_registration3/10.predict')
-    # batch_convert_niigz_jpg('../../data/gan/hospital_6/experiment_registration3/10.predict', '../../data/gan/hospital_6/experiment_registration3/10.predict_jpg')
-    
-    batch_predict_cta('../../data/gan/hospital_6_crop/experiment_registration2/8.2.out', '../../data/gan/hospital_6_crop/experiment_registration2/8.2.out/config/anno_mask_ncct_to_dwi_bxxx_test_config_file.txt', '../../data/gan/hospital_6_crop/experiment_registration2/10.predict_4.9019')
-    # batch_convert_niigz_jpg('../../data/gan/hospital_6/experiment_registration3/10.predict', '../../data/gan/hospital_6/experiment_registration3/10.predict_jpg')
-
-    # batch_predict_cta('../../data/gan/hospital_6/experiment_registration_neg/8.2.out', '../../data/gan/hospital_6/experiment_registration_neg/8.2.out/config/mask_ncct_to_dwi_bxxx_train_config_file.txt', '../../data/gan/hospital_6/experiment_registration_neg/10.predict')
-    # batch_predict_cta('../../data/gan/hospital_6/experiment_registration_neg/8.2.out', '../../data/gan/hospital_6/experiment_registration_neg/8.2.out/config/mask_ncct_to_dwi_bxxx_test_config_file.txt', '../../data/gan/hospital_6/experiment_registration_neg/10.predict')
-    # batch_convert_niigz_jpg('../../data/gan/hospital_6/experiment_registration_neg/10.predict', '../../data/gan/hospital_6/experiment_registration_neg/10.predict_jpg')
-
+    predict('../../data/1_first_BS_NCCT.nii.gz', '../../data/predict')
 
 
